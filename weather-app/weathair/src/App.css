@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
 body {
-  font-family: "Open Sans", serif;
+  font-family: 'Open Sans', serif;
 }
 
 .wrapper {
-  background: linear-gradient(to right, #9D50BB, #4b6cb7);
+  background: linear-gradient(to right, #9d50bb, #4b6cb7);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -16,21 +16,20 @@ body {
 
 .main {
   height: 90vh;
-  background:linear-gradient(to right, #9D50BB, #4b6cb7);
-  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  background: linear-gradient(to right, #9d50bb, #4b6cb7);
+  box-shadow: 0px 13px 40px -13px rgba(0, 0, 0, 0.75);
   width: 80%;
   margin: 0 auto;
 }
 
 .title-container {
   height: 90vh;
-  background: linear-gradient( #73ddf5,#c471ed,#f64f59);
+  background: linear-gradient(#73ddf5, #c471ed, #f64f59);
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  
 }
 
 .title-container__title {
@@ -45,17 +44,17 @@ body {
   font-weight: 100;
   letter-spacing: 1px;
   line-height: 1.5;
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
 }
 
 .form-container {
-  background: linear-gradient(to right, #73ddf5,#c471ed,#f64f59);
+  background: linear-gradient(to right, #73ddf5, #c471ed, #f64f59);
   height: 90vh;
   padding-top: 100px;
   padding-left: 50px;
 }
 
-input[type="text"] {
+input[type='text'] {
   background-color: transparent;
   border: 0;
   border-bottom: solid 1px #f16051;
@@ -69,13 +68,9 @@ input[type="text"] {
   font-size: 20px;
 }
 
-input[type="text"] { 
-    outline: none;
-}
-
 input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
-    -webkit-text-fill-color: #fff !important;
+  -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
+  -webkit-text-fill-color: #fff !important;
 }
 
 button {
@@ -87,13 +82,9 @@ button {
   letter-spacing: 1px;
   font-size: 15px;
   cursor: pointer;
-  background-color:#9D50BB;
+  background-color: #9d50bb;
   color: #fff;
   font-weight: 100;
-}
-
-button:active {
-  outline: none;
 }
 
 .weather__info {
@@ -105,7 +96,7 @@ button:active {
 
 .weather__key {
   color: #f16051;
-  border-bottom: solid 2px rgba(255,255,255,0.06);
+  border-bottom: solid 2px rgba(255, 255, 255, 0.06);
   padding: 20px 0 20px 0;
   font-weight: 400;
 }
